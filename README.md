@@ -19,7 +19,7 @@ REST API backend for a food delivery app using Node.js. The primary focus is on 
 | `total_distance` | `Number` | **Required** |
 | `item_type` | `PERISHABLE / NONPERISHABLE` | **Required** |
 
-### Live Link : 
+### Live Link : https://food-delivery-1-xmfa.onrender.com/docs/
 
 ### For Local set up:
 ## Installation
