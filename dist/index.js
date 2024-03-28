@@ -4,20 +4,23 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const body_parser_1 = __importDefault(require("body-parser"));
+const express_1 = __importDefault(require("express"));
 const dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config();
-const express_1 = __importDefault(require("express"));
+const dynamicPricingRoute_1 = __importDefault(require("./routes/dynamicPricingRoute"));
+const swagger_1 = __importDefault(require("./utils/swagger"));
 const app = (0, express_1.default)();
-const port = process.env.PORT || 3000;
+const port = parseInt(process.env.PORT, 10) || 3000;
 app.use(body_parser_1.default.json());
+app.use("/fooddelivery", dynamicPricingRoute_1.default);
 app.get("/", (req, res) => {
     res.send("yes i am alive!!!!!!!");
 });
 const main = () => {
-    // Connect to PostgressDB via prisma ORM
     console.log("Application connected to PostgressDB ......");
     app.listen(port, () => {
         console.log(`Server is running on port 3000`);
+        (0, swagger_1.default)(app, port);
     });
 };
 main();
