@@ -43,3 +43,13 @@ cd \dist\db
 node db.js
 ```
 - Visit localhost 3000 in browser or use Postman/ThunderClient
+- ![image](https://github.com/sweekruth17/food_delivery/assets/55882537/5858d941-2145-4277-925d-f696f65694f9)
+- ![image](https://github.com/sweekruth17/food_delivery/assets/55882537/ff4634b5-8925-4f3b-a1df-a9855c5dedd0)
+- ![image](https://github.com/sweekruth17/food_delivery/assets/55882537/7c3f1048-c302-4d45-a8f3-8e79ba210bf1)
+- ![image](https://github.com/sweekruth17/food_delivery/assets/55882537/b53e61ca-1cab-41a0-8683-4dbac89fa0fd)
+- ![image](https://github.com/sweekruth17/food_delivery/assets/55882537/6bc88d28-35bc-44d8-be8c-c480ca78e8af)
+
+
+
+
+
