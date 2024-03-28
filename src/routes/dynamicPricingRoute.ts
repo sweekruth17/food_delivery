@@ -58,7 +58,6 @@ const router = Router();
  */
 router.get("/dynamicpricing", dynamicPricing);
 
-router.get("/dynamicpricing", dynamicPricing);
 router.get("/ok", (req: Request, res: Response) => {
   const { zone, organization_id, total_distance, item_type } = req.headers;
   console.log(req.headers);

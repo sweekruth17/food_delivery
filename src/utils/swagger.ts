@@ -14,7 +14,10 @@ const options: swaggerJsdoc.Options = {
     components: {},
     security: [{}],
   },
-  apis: ["./src/routes/dynamicPricingRoute.ts"],
+  apis: [
+    "./src/routes/dynamicPricingRoute.ts",
+    "./dist/routes/dynamicPricingRoute.js",
+  ],
 };
 
 const swaggerSpec = swaggerJsdoc(options);
