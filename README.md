@@ -38,6 +38,7 @@ npm run dev
 - to go \src\db\db.ts
 - Add your data
 ```bash
+npx prisma generate
 npx tsc -b
 cd \dist\db
 node db.js
