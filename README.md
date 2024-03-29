@@ -24,6 +24,7 @@ REST API backend for a food delivery app using Node.js. The primary focus is on 
 ### For Local set up:
 
 ## Installation/ running via docker
+- Just run below command, but before this add DB url in dockerfile
 ```bash
 docker run -p 3000:3000 food-delivery-api
 ```
